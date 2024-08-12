@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh; /* Ensures the background covers at least the full viewport height */
+}
+h1 {
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .navbar {
+        margin-top: 1px;
+        border: 3px solid black;
+        background-color: white; /* or any color you prefer */
+        z-index: 10; /* Ensure it stays on top of the background */
+        position: relative; /* Keep it in normal document flow */
+    }
+    
+
+#searchbox{
+    text-align: right;
+    height:20px;
+    width: 84px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.searchicon {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+     
+}
+/* .lamp {
+    height: 527px;
+    width: 396px;
+    right: 0px;
+    top: 48px;
+    background-image: url(lamp.jpg);
+    position: absolute;
+    background-size: contain;
+} */
+ .footer{
+    position: absolute;
+    bottom: 2px;
+    border: 2px solid black;
+    background-color: white;
+ }
