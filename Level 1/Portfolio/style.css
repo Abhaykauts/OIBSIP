@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(16, 19, 19, 0.804);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.b1 {
+    position: absolute;
+    background-color: aliceblue;
+    height: 40%;
+    width: 27%;
+    left: 52%;
+    top: 27%;
+    background-image: url(sky.jpg);
+    background-position: center;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.5);
+
+    background-size: cover;
+}
+.b1:hover{
+    border: 4px solid rgb(39, 38, 38);
+}
+.heading {
+    position: absolute;
+    color: aliceblue;
+    left: 30%;
+    top: 32%;
+    font-size: 32px;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.heading h2 {
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+}
+
+.profile {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url(p1.jpg);
+    background-position: center;
+    left: 190px;
+    bottom: 15px;
+    background-size: cover;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.5);
+}
+.profile:hover{
+    border: 4px solid rgb(39, 38, 38);
+   
+}
+.name h2,h3{
+    color: aliceblue;
+
+
+}
+.name{
+    position:relative;
+    left: 40px;
+    top: 80px;
+    width: 40%;
+}
+.name:hover{
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.5);
+
+
+}
+.name button a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
+.name button{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+a:hover{
+    border: 2px solid white;
+   
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.5);
+}
+a:visited {
+    color: inherit; 
+}
